@@ -428,14 +428,14 @@ article
     width: 50%;
     background-color: #fff; 
     margin-top: 20px;
-    margin-right: -60px;
+    margin-right: 150px;;
    
 }
 
 #icons
 {  
     margin-top: 20px;
-    margin-left: -500px;
+    margin-left: -30px;
     
 }
 
@@ -446,8 +446,7 @@ article
   color: #4aaaa5;
   line-height: 2;
   border-bottom: 2px solid #dcdcdc;
-  margin-right: -20px;
-  margin-left: 20px;
+  
  
     
 }
