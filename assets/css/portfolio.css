@@ -9,6 +9,7 @@ body
 #container
  {
   width:960px;
+  margin: 0 auto;
   
  }
 #head_container::after,
@@ -72,8 +73,8 @@ a:hover
 }
 #article
 {
-  height: 1400px;
-  width: 34%;
+  height: 1650px;
+  width: 38%;
   background-color: #ffffff;
   margin-top: 40px;
   margin-left: 140px;
@@ -85,6 +86,7 @@ article
   border-bottom: 2px solid #dcdcdc;
   padding:5px;
   margin-left: 30px; 
+  margin-right: 30px;
   color: #4aaaa5; 
   font-size: 20px;
   
@@ -92,12 +94,12 @@ article
 
 #aside
 {
-    height: 180px;
-    width: 280px;
+    height: 200px;
+    width: 30%;
     background-color: #fff; 
     float:right;
-    margin-top: -1400px;
-  margin-right: 140px;
+    margin-top: -1650px;
+  margin-right: 110px;
 }
 
 #icons
@@ -122,6 +124,11 @@ article
 {
   margin-left: 7px;
 }
+.gridimg
+{
+  width: 300px;
+  height: 250px;
+}
 
 td
 {
@@ -140,7 +147,7 @@ td>h3
   line-height: -2;
   margin-top: -70px;
   position: absolute;
-  width: 250px;
+  width: 300px;
 
 }
 tr
@@ -241,11 +248,11 @@ a:hover
 }
 #article
 {
-  height: 850px;
-  width: 100%;
+  height: 900px;
+  width: 90%;
   background-color: #ffffff;
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left: 40px;
   
 
 }
@@ -262,16 +269,19 @@ article
 #aside
 {
     height: 180px;
-    width: 100%;
+    width: 90%;
     background-color: #fff; 
     margin-top: 20px;
-    margin-right: -18px
+    margin-right: 35px;
+    
 }
 
 #icons
 {  
     margin-top: 20px;
-    margin-left: -500px;
+    text-align: left;
+    margin-left: 20px;
+    
     
 }
 
@@ -287,10 +297,14 @@ article
   position: relative;
     
 }
-#grid
+
+.gridimg
 {
-  margin-left: 7px;
+  width: 270px;
+  height: 200px;
 }
+
+
 
 td
 {
@@ -309,7 +323,7 @@ td>h3
   line-height: -2;
   margin-top: -70px;
   position: absolute;
-  width: 250px;
+  width: 270px;
 
 }
 tr
@@ -372,14 +386,15 @@ body
     width: 100%; 
     height: 40px;
     padding: 18px;
-   margin-left:-10px;
+   margin-left:-30px;
     text-align: center;
 }
  nav
  {
    width: 100%;   
   line-height: 1.8;
-   margin-left: 10px;
+
+   
   
  }
 nav>ul
@@ -403,11 +418,11 @@ a:hover
 }
 #article
 {
-  height: 1400px;
-  width: 50%;
+  height: 1900px;
+  width: 90%;
   background-color: #ffffff;
   margin-top: 40px;
-  margin-left: 140px;
+  
   
 
 }
@@ -424,17 +439,19 @@ article
 #aside
 {
     height: 180px;
-    width: 50%;
+    width: 90%;
     background-color: #fff; 
     margin-top: 20px;
-    margin-right: 150px;;
+    margin-right: 20px;
+    
+    
    
 }
 
 #icons
 {  
     margin-top: 20px;
-    margin-left: -30px;
+    margin-left: 30px;
     
 }
 
@@ -444,14 +461,12 @@ article
   height: 60px;
   color: #4aaaa5;
   line-height: 2;
-  border-bottom: 2px solid #dcdcdc;
-  
- 
-    
+  border-bottom: 2px solid #dcdcdc;    
 }
-#grid
+.gridimg
 {
-  margin-left: 7px;
+  width: 500px;
+  height: 300px;
 }
 
 td
@@ -471,7 +486,7 @@ td>h3
   line-height: -2;
   margin-top: -70px;
   position: absolute;
-  width: 250px;
+  width: 500px;
 
 }
 tr
